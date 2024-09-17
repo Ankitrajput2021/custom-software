@@ -1,0 +1,50 @@
+/* CSS for the New Job Sheet form */
+.new-job-sheet-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-job-sheet-container h2 {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  .new-job-sheet-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-job-sheet-container input,
+  .new-job-sheet-container textarea,
+  .new-job-sheet-container select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .new-job-sheet-container button {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .new-job-sheet-container button:hover {
+    background-color: #0055cc;
+  }
+  
+  
